@@ -134,6 +134,146 @@
   text-decoration: none;
 }
 
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.content__sidebar {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.342);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.content__sidebar .find__block {
+  position: relative;
+  height: 30%;
+}
+
+.content__sidebar .find__word {
+  position: absolute;
+  top: 32px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
+
+.content__sidebar .ico__search {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  right: 10px;
+  background-color: grey;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.content__sidebar .track_search {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+.content__sidebar .track_search input {
+  width: 140px;
+}
+
+.content__sidebar .track_search p {
+  color: gray;
+  padding-top: 5px;
+}
+
+.content__sidebar .track_search__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 19.2px;
+  background-color: gray;
+}
+
+.content__sidebar .track_search__button:hover {
+  background-color: red;
+}
+
+.nav__block ul {
+  list-style: none;
+}
+
+.nav__block li {
+  position: relative;
+  border-bottom: 1px solid rgba(175, 175, 175, 0.342);
+  line-height: 50px;
+}
+
+.nav__block li:last-child {
+  border-bottom: none;
+}
+
+.nav__block li a {
+  color: red;
+  padding-left: 30px;
+  text-decoration: underline #b8b8b8;
+}
+
+.nav__block li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.nav__block li:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 50px;
+  background-color: red;
+  visibility: hidden;
+}
+
+.nav__block li:hover {
+  background-color: #e6e6e6;
+}
+
+.nav__block li:hover:after {
+  visibility: visible;
+}
+
+.content__slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 *, ::after, ::before {
   box-sizing: border-box;
   margin: 0;
