@@ -123,4 +123,33 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
+    .menu_dot_slider{
+        width: 100%;
+        .dot_conteiner{
+            display: flex;
+            justify-content: center;
+            a div{
+                margin: 0 5px;
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background-color: red;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                
+            }
+            .enter_slide{
+                background-color: white;
+                border: 1px solid red;
+            }
+        }
+        .end_line_slider{
+            margin: 0 auto;
+            width: 200px;
+            border-top: 1px solid black;
+        }
+    }
 }
