@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
+    margin-bottom: 60px;
+    height: 370px;
 }
 .content__sidebar{
     width: 27%;
@@ -126,6 +128,8 @@
     .menu_dot_slider{
         width: 100%;
         .dot_conteiner{
+            position: relative;
+            top: 10px;
             display: flex;
             justify-content: center;
             a div{
@@ -147,9 +151,11 @@
             }
         }
         .end_line_slider{
+            position: relative;
+            top: 10px;
             margin: 0 auto;
             width: 200px;
-            border-top: 1px solid black;
+            border-top: 1px solid rgb(184, 184, 184);
         }
     }
 }
